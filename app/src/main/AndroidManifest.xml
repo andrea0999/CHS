@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cg.healthyapp">
     <!-- Add user permission -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        />
+    <uses-feature
+        android:name="android.hardware.camera2.flash"
+        />
+    <uses-feature
+        android:name="android.hardware.camera"
+        />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        />
+
+
 
     <application
         android:allowBackup="true"
@@ -11,6 +31,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CHS_healthyApp">
+        <activity
+            android:name=".secondStepsCounterScreen"
+            android:exported="true" />
+        <activity
+            android:name=".firstStepsCounterScreen"
+            android:exported="true" />
+        <activity
+            android:name=".thirdOxygenLevelScreen"
+            android:exported="true" />
+        <activity
+            android:name=".secondOxygenLevelScreen"
+            android:exported="true" />
+        <activity
+            android:name=".firstOxygenLevelScreen"
+            android:exported="true" />
+        <activity
+            android:name=".thirdHeartRateScreen"
+            android:exported="true" />
+        <activity
+            android:name=".secondHeartRateScreen"
+            android:exported="true" />
+        <activity
+            android:name=".OutputAnalyzer"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HeartRateFirstScreen"
+            android:exported="true" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />

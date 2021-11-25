@@ -9,18 +9,36 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Button back;
+    private Button heartRateBtn;
+    private Button oxygenBtn;
+    private Button stepBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        back = (Button) findViewById(R.id.heartRateBtn);
-        back.setOnClickListener(new View.OnClickListener() {
+        heartRateBtn = (Button) findViewById(R.id.heartRateBtn);
+        heartRateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), AuthenticationActivity.class));
+                startActivity(new Intent(getApplicationContext(), HeartRateFirstScreen.class));
+            }
+        });
+
+        oxygenBtn = (Button) findViewById(R.id.oxygenBtn);
+        oxygenBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), firstOxygenLevelScreen.class));
+            }
+        });
+
+        stepBtn = (Button) findViewById(R.id.stepBtn);
+        stepBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), firstStepsCounterScreen.class));
             }
         });
 

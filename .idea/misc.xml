@@ -4,10 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/drawable/background_authentication.xml" value="0.203125" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/drawable/circle.xml" value="0.18385416666666668" />
         <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_authentication.xml" value="0.264" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_first_oxygen_level_screen.xml" value="0.2" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_first_steps_counter_screen.xml" value="0.2" />
         <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_main.xml" value="0.17291666666666666" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_output_analyzer.xml" value="0.18958333333333333" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_second_heart_rate_screen.xml" value="0.2" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_second_oxygen_level_screen.xml" value="0.2" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_second_steps_counter_screen.xml" value="0.16" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_third_heart_rate_screen.xml" value="0.176" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/activity_third_oxygen_level_screen.xml" value="0.16" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/heartrate.xml" value="0.2" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/layout/menu.xml" value="0.18958333333333333" />
+        <entry key="..\:/Faculta/AN_IV/Sem_I/CHS/proiect/app/src/main/res/menu/menu.xml" value="0.2015625" />
       </map>
     </option>
   </component>
